@@ -1,0 +1,48 @@
+body {
+  background-color: lightblue;
+} /*Sets the background color for the page.*/
+
+header {
+  background-color: MediumSeagreen; /*Changes the background just for the header part.*/
+  border-style:dotted;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+} /*Every h1 title will have thi style.*/
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+} /*Sets the style for paragraphs.*/
+
+/*https://www.w3schools.com/css/css_website_layout.asp*/
+
+/* The navbar container */
+topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
